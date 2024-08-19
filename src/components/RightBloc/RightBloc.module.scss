@@ -1,0 +1,82 @@
+.rightBloc {
+	width: 480px;
+	height: 100%;
+	background: rgba(242, 242, 242, 1);
+	.container {
+		padding: 24px 32px 24px 24px;
+		height: 100%;
+	}
+	.title {
+		font-size: 32px;
+		line-height: 40px;
+		margin-bottom: 16px;
+	}
+	.columns {
+		display: flex;
+		justify-content: space-between;
+		gap: 75px;
+	}
+	.rightColumn {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+		font-size: 13px;
+		line-height: 18px;
+		letter-spacing: 0.16px;
+	}
+	.language {
+		padding: 5px 13px;
+		background: rgba(33, 150, 243, 1);
+		border-radius: 16px;
+		color: rgba(255, 255, 255, 1);
+		display: inline-block;
+		align-self: start;
+	}
+	.noLanguage {}
+	.topics {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 5px;
+	}
+	.noTopics {}
+	.topic {
+		padding: 3px 13px;
+		background: rgba(189, 189, 189, 1);
+		border-radius: 16px;
+		color: rgba(0, 0, 0, 0.87);
+		display: inline-block;
+	}
+	.description {
+		padding: 3px 13px;
+		background: rgba(199, 189, 189, 1);
+		border-radius: 16px;
+		color: rgba(0, 0, 0, 0.87);
+		display: inline-block;
+	}
+	.noDescription {}
+	.license {
+		font-size: 14px;
+		line-height: 20px;
+		letter-spacing: 0.17px;
+		margin-top: 24px;
+	}
+	.noLicense {}
+	.leftColumn {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		align-self: start;
+		gap: 5px;
+	}
+	.starIcon {}
+	.stargazersCount {
+	}
+	.noSelected {
+		color: rgba(0, 0, 0, 0.87);
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}
