@@ -3,7 +3,7 @@ import React from 'react';
 import { useSearchReposQuery } from '../../store/github/github.api';
 import { ReposInterface } from '../../models/models';
 
-const StyledTextField = styled(TextField)(({ theme }) => ({
+const StyledTextField = styled(TextField)(() => ({
   maxWidth: 912,
   width: '60%',
   height: 42,
@@ -28,7 +28,7 @@ const StyledTextField = styled(TextField)(({ theme }) => ({
   },
 }));
 
-const StyledButton = styled(Button)(({ theme }) => ({
+const StyledButton = styled(Button)(() => ({
 	fontSize: '15px',
 	width: '105px',
 	height: '42px',
